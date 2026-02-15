@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import joblib
 
+st.set_page_config(page_title="Predictor", layout="wide")
+
 # Load model and label encoders
 model = joblib.load("model/random_forest_model.joblib")
 label_encoders = joblib.load("model/label_encoders.joblib")

@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title="Dashboard", layout="wide")
+
 df = pd.read_csv("data/mudah-apartment-kl-selangor-cleaned.csv")
 
 def filtering():
