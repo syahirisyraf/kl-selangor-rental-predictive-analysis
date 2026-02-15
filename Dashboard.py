@@ -66,7 +66,7 @@ def list_of_table(data):
     ]
     st.dataframe(df_selected)
 
-st.title("Mudah Apartment Data Analysis")
+st.title("KL-Selangor House Predictive Data Analysis")
 filtered_df = filtering()
 metric_card(filtered_df)
 line_chart_and_bar_chart(filtered_df)
