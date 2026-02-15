@@ -1,2 +1,8 @@
-# Model files
-model/*.joblib
+# IDE
+.idea/
+
+# Virtual environment
+.venv/
+
+# Old requirements file
+requirement.txt
